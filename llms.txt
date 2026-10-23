@@ -1,0 +1,17 @@
+# Telegram Channel Scraper
+
+> An Apify actor that exports messages from Telegram channels (text, date, views, media, forwards, links), with an optional channel summary and the channel's visible discussion members, without a login.
+
+## Docs
+
+- [Apify Store page](https://apify.com/goat255/telegram-channel-scraper): run it, prices, input form
+- [AGENTS.md](AGENTS.md): input and output fields, MCP and HTTP setup for AI agents
+- [README.md](README.md): overview, use cases and a demo video
+
+## Quick call
+
+- POST https://api.apify.com/v2/acts/goat255~telegram-channel-scraper/run-sync-get-dataset-items?token=YOUR_APIFY_TOKEN with body {"channels": ["example_channel"], "maxMessagesPerChannel": 50}
+
+## More
+
+- [All our actors](https://apify.com/goat255)
